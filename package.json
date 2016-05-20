@@ -8,8 +8,8 @@
     "Spencer Alger <spencer@spenceralger.com>"
   ],
   "dependencies": {
-    "angular": "^1.5.3",
+    "angular": "^1.5.5",
     "bootstrap": "^3.3.6",
-    "elasticsearch-browser": "^11.0.0"
+    "elasticsearch-browser": "^12.0.0-rc2"
   }
 }

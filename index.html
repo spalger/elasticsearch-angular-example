@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <!-- include bower components in proper order -->
+  <!-- include npm modules in proper order -->
   <script src="node_modules/angular/angular.min.js"></script>
   <script src="node_modules/elasticsearch-browser/elasticsearch.angular.min.js"></script>
 
@@ -44,7 +44,7 @@
     ExampleApp.service('client', function (esFactory) {
       return esFactory({
         host: 'localhost:9200',
-        apiVersion: '1.2',
+        apiVersion: '2.3',
         log: 'trace'
       });
     });
