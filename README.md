@@ -35,6 +35,11 @@ http.cors:
   npm install
   ```
 
-4. Open the index.html file in your browser.
+4. Open file in your browser.
+
+  ```sh
+  http-server -a localhost -p 8000
+  ```
+  Go to localhost:8000
 
 5. Check out the source for [index.html](https://github.com/spenceralger/elasticsearch-angular-example/blob/master/index.html) to see how it works.
