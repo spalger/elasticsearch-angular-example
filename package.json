@@ -10,6 +10,7 @@
   "dependencies": {
     "angular": "^1.5.5",
     "bootstrap": "^3.3.6",
-    "elasticsearch-browser": "^12.0.0-rc2"
+    "elasticsearch-browser": "^12.0.0-rc2",
+    "http-server": "~0.9.0"
   }
 }
